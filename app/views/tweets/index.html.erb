@@ -1,1 +1,5 @@
 <h1>Hello world!!</h1>
+<% @tweets.each do |t| %>
+  <p>name : <%= t.name %></p>
+  <p>tweet : <%= t.tweet %></p>
+<% end %>
